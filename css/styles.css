@@ -1,0 +1,41 @@
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #title {
+    background-color: #ff4c68;
+    color: hsl(0, 0%, 100%);
+    padding: 0 5rem;
+  }
+  #title .nav-margin {
+    margin-bottom: 2.5rem;
+    padding-left: 0;
+  }
+  
+  .nav-item {
+    margin: 0 1em;
+  }
+  
+  #title h1 {
+    font-weight: 700;
+    font-size: 3.3rem;
+  }
+  
+  .logo {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.4rem;
+  }
+  
+  .row h1 {
+    margin-top: 2rem;
+  }
+  
+  .banner-img img {
+    width: 50%;
+    transform: rotate(30deg);
+  }
+  
+  .btn-margin {
+    margin: 3em 1em 3em 0;
+  }
+  
