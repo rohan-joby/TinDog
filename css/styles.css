@@ -107,3 +107,18 @@ body {
 }
 
 /* Pricing Section */
+#prices {
+  margin: 2rem 5rem 3rem;
+}
+
+#prices > h2 {
+  font-weight: 700;
+}
+
+#prices > p {
+  color: var(--clr-accent-700);
+}
+
+.pricing {
+  padding: 1rem 2rem;
+}
