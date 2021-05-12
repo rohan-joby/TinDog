@@ -11,17 +11,19 @@ body {
 
 /* Title Section */
 #title {
-  background-color: var(--clr-primary-700);
+  background-color: var(--clr-primary-900);
   color: var(--clr-accent-100);
-  padding: 1rem 5rem;
+  padding: 1rem 5rem 4rem;
 }
 #title .nav-margin {
   margin-bottom: 2.5rem;
+  margin-right: 4.2rem;
   padding-left: 0;
 }
 
 .nav-item {
   margin: 0 1em;
+  font-size: 1.2rem;
 }
 
 #title h1 {
@@ -39,8 +41,10 @@ body {
 }
 
 .banner-img img {
-  width: 50%;
+  width: 60%;
   transform: rotate(30deg);
+  padding-left: 17%;
+  position: absolute;
 }
 
 .btn-margin {
@@ -50,6 +54,9 @@ body {
 /* Features Section */
 #features {
   padding: 5rem 9rem;
+  background-color: var(--clr-accent-100);
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -143,12 +150,12 @@ body {
   color: var(--clr-accent-700);
   background-color: var(--clr-accent-100);
   text-align: center;
-  padding: 6rem;
+  padding: 4rem;
 }
 
 #footer .fab,
 #footer .fas {
   color: var(--clr-accent-900);
   font-size: 1.4rem;
-  margin: 1.5rem 0.5rem;
+  margin: 1rem 0.5rem;
 }
