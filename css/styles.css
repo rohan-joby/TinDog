@@ -36,21 +36,24 @@ body {
 }
 
 .btn-margin {
-  margin: 3em 1em 3em 0;
+  margin: 3em 1em 1rem 0;
 }
 
 #features {
-  text-align: center;
-  padding: 0 8rem;
-  margin-top: 5rem;
+  padding: 5rem 9rem;
 }
 
-#features h3 {
+.feature-box {
+  text-align: center;
+  padding:3rem;
+}
+
+.feature-box h3 {
   font-weight: 700;
   font-size: 1.5rem;
 }
 
-#features p {
+.feature-box p {
   color: #8f8f8f;
 }
 
