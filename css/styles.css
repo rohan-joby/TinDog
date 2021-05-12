@@ -84,22 +84,26 @@ body {
 }
 
 #testimonials h2 {
-    font-weight: 700;
-    margin: 1rem 10rem;
-    /* padding: 1rem 8rem; */
+  font-size: 2.1rem;
+  font-weight: 700;
+  padding: 1rem 5rem;
+  /* padding: 1rem 8rem; */
 }
 
 .testimonial-image {
-    width: 15%;
-    border-radius: 50%;
+  width: 13%;
+  border-radius: 50%;
 }
 
 /* Press Section */
-#press{
-    background-color: var(--clr-primary-700);
-    text-align: center;
-    padding: 5rem 5rem;
+#press {
+  background-color: var(--clr-primary-700);
+  text-align: center;
+  padding: 5rem 5rem;
 }
-.press-item{
-    width:20%;
+.press-item {
+  width: 20%;
+  padding: 1em 1.5em;
 }
+
+/* Pricing Section */
