@@ -6,6 +6,7 @@ body {
   --clr-primary-900: #ff4c68;
   --clr-accent-100: hsl(0, 0%, 100%);
   --clr-accent-700: #8f8f8f;
+  --clr-accent-900: #000;
 }
 
 /* Title Section */
@@ -127,7 +128,7 @@ body {
 #cta {
   background-color: var(--clr-primary-900);
   text-align: center;
-  padding:2rem 1rem 5rem;
+  padding: 2rem 1rem 5rem;
 }
 
 #cta h3 {
@@ -135,4 +136,19 @@ body {
   font-size: 3.4rem;
   color: var(--clr-accent-100);
   padding: 6rem 10rem 1rem;
+}
+
+/* Footer Section */
+#footer {
+  color: var(--clr-accent-700);
+  background-color: var(--clr-accent-100);
+  text-align: center;
+  padding: 6rem;
+}
+
+#footer .fab,
+#footer .fas {
+  color: var(--clr-accent-900);
+  font-size: 1.4rem;
+  margin: 1.5rem 0.5rem;
 }
