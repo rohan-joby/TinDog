@@ -1,11 +1,18 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+:root {
+  --clr-primary-700: #ef8172;
+  --clr-primary-900: #ff4c68;
+  --clr-accent-100: hsl(0, 0%, 100%);
+  --clr-accent-700: #8f8f8f;
+}
 
+/* Title Section */
 #title {
-  background-color: #ff4c68;
-  color: hsl(0, 0%, 100%);
-  padding: 0 5rem;
+  background-color: var(--clr-primary-700);
+  color: var(--clr-accent-100);
+  padding: 1rem 5rem;
 }
 #title .nav-margin {
   margin-bottom: 2.5rem;
@@ -39,13 +46,14 @@ body {
   margin: 3em 1em 1rem 0;
 }
 
+/* Features Section */
 #features {
   padding: 5rem 9rem;
 }
 
 .feature-box {
   text-align: center;
-  padding:3rem;
+  padding: 3rem;
 }
 
 .feature-box h3 {
@@ -54,15 +62,44 @@ body {
 }
 
 .feature-box p {
-  color: #8f8f8f;
+  color: var(--clr-accent-700);
 }
 
 #features .fas {
-  color: #ef8172;
+  color: var(--clr-primary-700);
   font-size: 4rem;
   margin: 1rem;
 }
 
 #features .fas:hover {
-  color: #ff4c68;
+  color: var(--clr-primary-900);
+}
+
+/* Testimonials Section */
+#testimonials {
+  color: var(--clr-accent-100);
+  background-color: var(--clr-primary-700);
+  padding: 5rem 5rem 1rem;
+  text-align: center;
+}
+
+#testimonials h2 {
+    font-weight: 700;
+    margin: 1rem 10rem;
+    /* padding: 1rem 8rem; */
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Press Section */
+#press{
+    background-color: var(--clr-primary-700);
+    text-align: center;
+    padding: 5rem 5rem;
+}
+.press-item{
+    width:20%;
 }
